@@ -1,0 +1,38 @@
+{
+  "name": "Turnos",
+  "version": "1.0.0",
+  "description": "Sistema de gestión de turnos de consulta",
+  "main": "index.js",
+  "//": "el main es el punto arranque ,usando node, por tanto en bacckend, y arranca con un js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "servor src/ index.html 1234 --reload",
+    "lint": "oxlint src/",
+    "format": "oxfmt src/",
+    "build": "echo Comando reservado",
+    "deploy": "echo Comando reservado"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "turnos"
+  ],
+  "author": "Sergi55dev",
+  "license": "ISC",
+
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.16.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.16.1",
+  "type": "module",
+
+  "devDependencies": {
+    "oxfmt": "^0.76.0",
+    "oxlint": "^1.91.0",
+    "servor": "4.0.2"
+  }
+}
