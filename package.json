@@ -10,7 +10,7 @@
     "lint": "oxlint src/",
     "format": "oxfmt src/",
     "build": "echo Comando reservado",
-    "deploy": "echo Comando reservado"
+    "deploy": "gh-pages -d src/"
   },
   "keywords": [
     "javascript",
@@ -31,8 +31,9 @@
   "type": "module",
 
   "devDependencies": {
-    "oxfmt": "^0.76.0",
-    "oxlint": "^1.91.0",
+    "gh-pages": "^6.3.0",
+    "oxfmt": "0.77.0",
+    "oxlint": "1.92.0",
     "servor": "4.0.2"
   }
 }
